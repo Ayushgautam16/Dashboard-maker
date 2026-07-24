@@ -1,7 +1,0 @@
-{
-  "name": "excel-dashboard-generator-python",
-  "description": "Pure Python + HTML/CSS/JS Dashboard Application. Run `python app.py` or open `index.html` directly in browser.",
-  "scripts": {
-    "start": "python app.py"
-  }
-}
