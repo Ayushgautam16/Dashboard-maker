@@ -787,7 +787,7 @@ export default function App() {
             <div className="sidebar-footer">
               <div className="db-status">
                 <div className={`status-indicator ${dbConnected ? 'connected' : ''}`}></div>
-                <span>Database: {dbConnected ? 'PostgreSQL Connected' : 'Local Only'}</span>
+                <span>Database: {dbConnected ? 'SQLite Connected' : 'Disconnected'}</span>
               </div>
               <div>Rows: {records.length}</div>
             </div>
